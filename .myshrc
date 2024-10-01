@@ -1,0 +1,8 @@
+reveall = reveal -l
+home = hop ~
+
+mk_hop() 
+{ 
+	mkdir "$1" # Create the directory 
+	hop "$1" # Change into the directory 
+}

@@ -1,0 +1,5 @@
+echo lol > file.txt
+cat file.txt | grep "text" | wc -l
+ cat file.txt | grep "text" | wc -l
+cat file.txt
+cat file.txt | grep text | wc -l
